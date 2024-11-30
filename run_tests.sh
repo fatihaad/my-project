@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Starting tests..."
-python script.py > output.txt
+python3 script.py > output.txt
 if [ $? -eq 0 ]; then
     echo "Tests passed!"
     exit 0
